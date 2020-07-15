@@ -6,7 +6,7 @@ module.exports = {
 		autoOpenBrower: false,
 		host: '0.0.0.0',
 		overlay: { warnings: false, errors: true },
-		openPage: 'home.html',
+		openPage: 'index.html',
 		publicPath: '/'
 	},
 	build: {

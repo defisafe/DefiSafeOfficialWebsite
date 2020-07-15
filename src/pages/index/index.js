@@ -1,1 +1,2 @@
-export const a = 111;
+import 'normalize.css';
+import './index.scss';
