@@ -1,0 +1,203 @@
+.home {
+  .head {
+    padding: 0 100px;
+    height: 60px;
+    line-height: 60px;
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+    .logo {
+      padding: 10px 0;
+      line-height: normal;
+      img {
+        vertical-align: bottom;
+        width: 40px;
+      }
+      .text {
+        color: #2E9EFF;
+        margin-left: 10px;
+      }
+    }
+    /deep/.language {
+      .el-dropdown {
+        vertical-align: top;
+      }
+      .el-dropdown-title {
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+    .menu {
+      .m-item {
+        cursor: pointer;
+        color: #fff;
+        padding: 0 15px;
+        display: inline-block;
+        vertical-align: top;
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
+        .git-icon {
+          width: 20px;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+  .nav {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    margin-top: -60px;
+    background: url("../../assets/img/index/nav-bg.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: table;
+    .nav-outer {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    
+    .desc {
+      padding: 0 100px;
+      text-align: left;
+      color: #fff;
+      font-size: 22px;
+      h3 {
+        font-size: 68px;
+        font-weight: bold;
+        font-style: italic;
+      }
+    }
+    .menu {
+      padding: 0 100px;
+      text-align: left;
+      margin-top: 50px;
+      button {
+        height: 50px;
+        line-height: 44px;
+        padding: 0 50px;
+        border: 2px solid #fff;
+        color: #fff;
+        font-size: 18px;
+        text-transform: uppercase;
+        border-radius: 30px;
+        transition: all 0.25s ease-in-out;
+        font-weight: bold;
+        &:hover {
+          color: #52d3aa;
+          background: #fff;
+        }
+      }
+    }
+  }
+  .content {
+    .advantage {
+      width: 900px;
+      margin: 0 auto;
+      padding: 100px 0;
+      .feature-center {
+        float: left;
+        width: 33.333%;
+        padding: 0 20px;
+        text-align: center;
+        color: #4D5667;
+        img {
+          width: 60px;
+          margin-bottom: 10px;
+        }
+        h3 {
+          font-size: 18px;
+          margin-bottom: 20px;
+          font-weight: 500;
+          color: #333;
+        }
+        p {
+          font-size: 14px;
+          line-height: 20px;
+          padding: 0 20px;
+        }
+      }
+    }
+    .introduce {
+      margin-bottom: 50px;
+      &.bg {
+        background: #f3f3f3;
+      }
+      .i_outer {
+        width: 900px;
+        margin: 0 auto;
+        padding: 50px 0;
+        .i_item {
+          display: inline-block;
+          width: 50%;
+          vertical-align: top;
+          .title {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 30px;
+            line-height: 1.8;
+          }
+          .desc {
+            font-size: 13px;
+            color: #666;
+            line-height: 2;
+          }
+          img {
+            width: 100%;
+          }
+        }
+        .i_item_img {
+          padding: 0 100px;
+        }
+        .i_desc {
+          padding-right: 30px;
+        }
+        .i_desc1 {
+          padding-left: 30px;
+        }
+      }
+    }
+  }
+  .footer {
+    color: #fff;
+    background: #000;
+    padding: 100px 0 60px;
+    .f-support, .f-menu {
+      text-align: center;
+      div, li {
+        display: inline-block;
+        vertical-align: top;
+      }
+    }
+    .f-menu {
+      margin-top: 60px;
+      margin-bottom: 70px;
+      li {
+        color: #606166;
+        font-size: 15px;
+        padding: 0 30px;
+        cursor: pointer;
+      }
+    }
+    .f-support {
+      margin-top: 40px;
+      div {
+        margin: 0 20px;
+        cursor: pointer;
+      }
+    }
+    .f-contact {
+      margin-top: 40px;
+      .title {
+        color: #606166;
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+      .email {
+        color: #fff;
+      }
+    }
+  }
+}
