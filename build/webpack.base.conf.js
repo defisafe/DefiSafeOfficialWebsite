@@ -81,7 +81,7 @@ module.exports = {
     plugins: [
         //静态资源输出
         new copyWebpackPlugin([{
-            from: path.resolve(__dirname, "../src/static"),
+            from: path.resolve(__dirname, "../static"),
             to: './static',
             ignore: ['.*']
         }]),
