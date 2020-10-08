@@ -18,8 +18,6 @@ const webpackConfigProd = {
         publicPath: '../'
     },
     
-    devtool: 'cheap-module-eval-source-map',
-    
 	plugins: [
 		//删除dist目录
 		new cleanWebpackPlugin(['dist'], {

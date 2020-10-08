@@ -25,7 +25,8 @@ const rules = [{
                 limit: 5 * 1024, //小于这个时将会已base64位图片打包处理
                 // 图片文件输出的文件夹
                 publicPath: "../images",
-                outputPath: "images"
+                outputPath: "images",
+                esModule:false
             }
         }]
     },
@@ -36,7 +37,8 @@ const rules = [{
             loader: 'html-loader',
             options: {
                 attrs: ['img:src', 'img:data-src', 'audio:src'],
-                minimize: true
+                minimize: true,
+                esModule:false
             }
         }
     }
