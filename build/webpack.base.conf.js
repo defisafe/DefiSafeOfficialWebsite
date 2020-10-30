@@ -80,11 +80,11 @@ module.exports = {
     },
     plugins: [
         //静态资源输出
-        new copyWebpackPlugin([{
-            from: path.resolve(__dirname, "../static"),
-            to: './static',
-            ignore: ['.*']
-        }]),
+        // new copyWebpackPlugin([{
+        //     from: path.resolve(__dirname, "../static"),
+        //     to: './static',
+        //     ignore: ['.*']
+        // }]),
         // 消除冗余的css代码
         new purifyCssWebpack({
             paths: glob.sync(path.join(__dirname, "../src/pages/*/*.html"))
